@@ -1,0 +1,332 @@
+0133.678 (1) Opened log file at time: Mon, 11 Apr 2016 13:28:20 +0000 on http://dev.driving
+0133.679 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+0133.680 (1) Free space on disk containing Updraft's temporary directory: 338481.5 MB
+0133.681 (1) Backup run: resumption=1, nonce=0ca20228b6ec, begun at=1460381167 (133s ago), job type=backup, previous check-in=4.6s
+0133.682 (1) Scheduling a resumption (2) after 300 seconds (1460381600) in case this run gets aborted
+0133.684 (1) Checking if we have a zip executable available
+0133.685 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0133.685 (1) Creation of backups of directories: already finished
+0133.686 (1) Saving backup status to database (elements: 8)
+0133.688 (1) Database dump (WordPress DB): Creation was completed already
+0133.691 (1) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0133.692 (1) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0133.692 (1) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0133.693 (1) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0133.694 (1) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+0133.696 (1) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+0133.700 (1) Saving backup history. Total backup size: Unknown
+0133.702 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0133.703 (1) Cloud backup selection (1/1): googledrive (last)
+0133.704 (1) Beginning dispatch of backup to remote (googledrive)
+0133.705 (1) Google Drive: this account is not authorised
+0133.707 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0133.708 (1) Number of backup sets in history: 1; groups (db): 1
+0133.709 (1) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0133.710 (1) This backup set is the backup set just made, so will not be deleted.
+0133.710 (1) Number of backup sets in history: 1; groups (files): 1
+0133.711 (1) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0133.712 (1) This backup set is the backup set just made, so will not be deleted.
+0133.712 (1) This backup set is the backup set just made, so will not be deleted.
+0133.713 (1) This backup set is the backup set just made, so will not be deleted.
+0133.713 (1) This backup set is the backup set just made, so will not be deleted.
+0133.713 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0133.713 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0133.715 (1) Resume backup (0ca20228b6ec, 1): finish run
+0133.717 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0133.719 (1) No email will/can be sent - the user has not configured an email address.
+0133.720 (1) The backup has not finished; a resumption is scheduled
+0433.817 (2) Opened log file at time: Mon, 11 Apr 2016 13:33:20 +0000 on http://dev.driving
+0433.818 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+0433.819 (2) Free space on disk containing Updraft's temporary directory: 338481.5 MB
+0433.821 (2) Backup run: resumption=2, nonce=0ca20228b6ec, begun at=1460381167 (433s ago), job type=backup
+0433.821 (2) Scheduling a resumption (3) after 300 seconds (1460381900) in case this run gets aborted
+0433.823 (2) Checking if we have a zip executable available
+0433.824 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0433.825 (2) Creation of backups of directories: already finished
+0433.825 (2) Saving backup status to database (elements: 8)
+0433.827 (2) Database dump (WordPress DB): Creation was completed already
+0433.829 (2) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0433.830 (2) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0433.831 (2) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0433.831 (2) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0433.832 (2) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+0433.834 (2) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+0433.838 (2) Saving backup history. Total backup size: Unknown
+0433.839 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+0433.841 (2) Cloud backup selection (1/1): googledrive (last)
+0433.842 (2) Beginning dispatch of backup to remote (googledrive)
+0433.843 (2) Google Drive: this account is not authorised
+0433.845 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0433.846 (2) Number of backup sets in history: 1; groups (db): 1
+0433.846 (2) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0433.847 (2) This backup set is the backup set just made, so will not be deleted.
+0433.848 (2) Number of backup sets in history: 1; groups (files): 1
+0433.848 (2) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0433.849 (2) This backup set is the backup set just made, so will not be deleted.
+0433.850 (2) This backup set is the backup set just made, so will not be deleted.
+0433.850 (2) This backup set is the backup set just made, so will not be deleted.
+0433.850 (2) This backup set is the backup set just made, so will not be deleted.
+0433.850 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0433.851 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0433.853 (2) Resume backup (0ca20228b6ec, 2): finish run
+0433.854 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0433.856 (2) No email will/can be sent - the user has not configured an email address.
+0433.856 (2) The backup has not finished; a resumption is scheduled
+0733.731 (3) Opened log file at time: Mon, 11 Apr 2016 13:38:20 +0000 on http://dev.driving
+0733.732 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+0733.732 (3) Free space on disk containing Updraft's temporary directory: 338479.4 MB
+0733.734 (3) Backup run: resumption=3, nonce=0ca20228b6ec, begun at=1460381167 (733s ago), job type=backup
+0733.735 (3) Scheduling a resumption (4) after 300 seconds (1460382200) in case this run gets aborted
+0733.736 (3) Checking if we have a zip executable available
+0733.737 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0733.738 (3) Creation of backups of directories: already finished
+0733.738 (3) Saving backup status to database (elements: 8)
+0733.740 (3) Database dump (WordPress DB): Creation was completed already
+0733.743 (3) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0733.744 (3) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0733.745 (3) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0733.745 (3) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0733.746 (3) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+0733.748 (3) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+0733.752 (3) Saving backup history. Total backup size: Unknown
+0733.754 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+0733.755 (3) Cloud backup selection (1/1): googledrive (last)
+0733.756 (3) Beginning dispatch of backup to remote (googledrive)
+0733.756 (3) Google Drive: this account is not authorised
+0733.758 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0733.759 (3) Number of backup sets in history: 1; groups (db): 1
+0733.760 (3) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0733.761 (3) This backup set is the backup set just made, so will not be deleted.
+0733.761 (3) Number of backup sets in history: 1; groups (files): 1
+0733.762 (3) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+0733.763 (3) This backup set is the backup set just made, so will not be deleted.
+0733.764 (3) This backup set is the backup set just made, so will not be deleted.
+0733.764 (3) This backup set is the backup set just made, so will not be deleted.
+0733.764 (3) This backup set is the backup set just made, so will not be deleted.
+0733.764 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0733.765 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0733.767 (3) Resume backup (0ca20228b6ec, 3): finish run
+0733.769 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0733.770 (3) No email will/can be sent - the user has not configured an email address.
+0733.771 (3) The backup has not finished; a resumption is scheduled
+1033.749 (4) Opened log file at time: Mon, 11 Apr 2016 13:43:20 +0000 on http://dev.driving
+1033.750 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+1033.751 (4) Free space on disk containing Updraft's temporary directory: 338479.4 MB
+1033.753 (4) Backup run: resumption=4, nonce=0ca20228b6ec, begun at=1460381167 (1033s ago), job type=backup
+1033.754 (4) Scheduling a resumption (5) after 300 seconds (1460382500) in case this run gets aborted
+1033.755 (4) Checking if we have a zip executable available
+1033.756 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1033.757 (4) Creation of backups of directories: already finished
+1033.758 (4) Saving backup status to database (elements: 8)
+1033.760 (4) Database dump (WordPress DB): Creation was completed already
+1033.762 (4) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1033.762 (4) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1033.763 (4) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1033.764 (4) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+1033.765 (4) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+1033.766 (4) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+1033.770 (4) Saving backup history. Total backup size: Unknown
+1033.772 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+1033.774 (4) Cloud backup selection (1/1): googledrive (last)
+1033.775 (4) Beginning dispatch of backup to remote (googledrive)
+1033.775 (4) Google Drive: this account is not authorised
+1033.777 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1033.778 (4) Number of backup sets in history: 1; groups (db): 1
+1033.779 (4) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1033.780 (4) This backup set is the backup set just made, so will not be deleted.
+1033.780 (4) Number of backup sets in history: 1; groups (files): 1
+1033.781 (4) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1033.782 (4) This backup set is the backup set just made, so will not be deleted.
+1033.782 (4) This backup set is the backup set just made, so will not be deleted.
+1033.783 (4) This backup set is the backup set just made, so will not be deleted.
+1033.783 (4) This backup set is the backup set just made, so will not be deleted.
+1033.783 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1033.784 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1033.786 (4) Resume backup (0ca20228b6ec, 4): finish run
+1033.787 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1033.789 (4) No email will/can be sent - the user has not configured an email address.
+1033.790 (4) The backup has not finished; a resumption is scheduled
+1333.718 (5) Opened log file at time: Mon, 11 Apr 2016 13:48:20 +0000 on http://dev.driving
+1333.718 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+1333.719 (5) Free space on disk containing Updraft's temporary directory: 338479.4 MB
+1333.721 (5) Backup run: resumption=5, nonce=0ca20228b6ec, begun at=1460381167 (1333s ago), job type=backup
+1333.721 (5) Scheduling a resumption (6) after 300 seconds (1460382800) in case this run gets aborted
+1333.723 (5) Checking if we have a zip executable available
+1333.724 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1333.724 (5) Creation of backups of directories: already finished
+1333.725 (5) Saving backup status to database (elements: 8)
+1333.727 (5) Database dump (WordPress DB): Creation was completed already
+1333.729 (5) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1333.729 (5) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1333.730 (5) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1333.731 (5) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+1333.732 (5) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+1333.733 (5) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+1333.737 (5) Saving backup history. Total backup size: Unknown
+1333.739 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+1333.740 (5) Cloud backup selection (1/1): googledrive (last)
+1333.741 (5) Beginning dispatch of backup to remote (googledrive)
+1333.742 (5) Google Drive: this account is not authorised
+1333.744 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1333.745 (5) Number of backup sets in history: 1; groups (db): 1
+1333.746 (5) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1333.746 (5) This backup set is the backup set just made, so will not be deleted.
+1333.747 (5) Number of backup sets in history: 1; groups (files): 1
+1333.748 (5) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1333.748 (5) This backup set is the backup set just made, so will not be deleted.
+1333.749 (5) This backup set is the backup set just made, so will not be deleted.
+1333.749 (5) This backup set is the backup set just made, so will not be deleted.
+1333.749 (5) This backup set is the backup set just made, so will not be deleted.
+1333.749 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1333.750 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1333.752 (5) Resume backup (0ca20228b6ec, 5): finish run
+1333.754 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1333.755 (5) No email will/can be sent - the user has not configured an email address.
+1333.756 (5) The backup has not finished; a resumption is scheduled
+1633.726 (6) Opened log file at time: Mon, 11 Apr 2016 13:53:20 +0000 on http://dev.driving
+1633.727 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+1633.728 (6) Free space on disk containing Updraft's temporary directory: 338479.3 MB
+1633.730 (6) Backup run: resumption=6, nonce=0ca20228b6ec, begun at=1460381167 (1633s ago), job type=backup
+1633.730 (6) Scheduling a resumption (7) after 300 seconds (1460383100) in case this run gets aborted
+1633.732 (6) Checking if we have a zip executable available
+1633.732 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+1633.733 (6) Creation of backups of directories: already finished
+1633.734 (6) Saving backup status to database (elements: 8)
+1633.736 (6) Database dump (WordPress DB): Creation was completed already
+1633.738 (6) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1633.739 (6) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1633.739 (6) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1633.740 (6) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+1633.741 (6) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+1633.742 (6) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+1633.746 (6) Saving backup history. Total backup size: Unknown
+1633.748 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+1633.750 (6) Cloud backup selection (1/1): googledrive (last)
+1633.750 (6) Beginning dispatch of backup to remote (googledrive)
+1633.751 (6) Google Drive: this account is not authorised
+1633.753 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1633.753 (6) Number of backup sets in history: 1; groups (db): 1
+1633.754 (6) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1633.755 (6) This backup set is the backup set just made, so will not be deleted.
+1633.756 (6) Number of backup sets in history: 1; groups (files): 1
+1633.756 (6) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1633.757 (6) This backup set is the backup set just made, so will not be deleted.
+1633.758 (6) This backup set is the backup set just made, so will not be deleted.
+1633.758 (6) This backup set is the backup set just made, so will not be deleted.
+1633.758 (6) This backup set is the backup set just made, so will not be deleted.
+1633.758 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1633.759 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1633.761 (6) Resume backup (0ca20228b6ec, 6): finish run
+1633.763 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1633.764 (6) No email will/can be sent - the user has not configured an email address.
+1633.765 (6) The backup has not finished; a resumption is scheduled
+1933.715 (7) Opened log file at time: Mon, 11 Apr 2016 13:58:20 +0000 on http://dev.driving
+1933.716 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+1933.716 (7) Free space on disk containing Updraft's temporary directory: 338479.3 MB
+1933.718 (7) Backup run: resumption=7, nonce=0ca20228b6ec, begun at=1460381167 (1933s ago), job type=backup
+1933.719 (7) Scheduling a resumption (8) after 300 seconds (1460383400) in case this run gets aborted
+1933.721 (7) Checking if we have a zip executable available
+1933.721 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+1933.722 (7) Creation of backups of directories: already finished
+1933.723 (7) Saving backup status to database (elements: 8)
+1933.724 (7) Database dump (WordPress DB): Creation was completed already
+1933.726 (7) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1933.727 (7) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1933.728 (7) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1933.729 (7) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+1933.729 (7) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+1933.732 (7) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+1933.735 (7) Saving backup history. Total backup size: Unknown
+1933.737 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+1933.739 (7) Cloud backup selection (1/1): googledrive (last)
+1933.740 (7) Beginning dispatch of backup to remote (googledrive)
+1933.740 (7) Google Drive: this account is not authorised
+1933.742 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1933.743 (7) Number of backup sets in history: 1; groups (db): 1
+1933.744 (7) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1933.745 (7) This backup set is the backup set just made, so will not be deleted.
+1933.745 (7) Number of backup sets in history: 1; groups (files): 1
+1933.746 (7) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+1933.746 (7) This backup set is the backup set just made, so will not be deleted.
+1933.747 (7) This backup set is the backup set just made, so will not be deleted.
+1933.747 (7) This backup set is the backup set just made, so will not be deleted.
+1933.747 (7) This backup set is the backup set just made, so will not be deleted.
+1933.748 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+1933.748 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1933.750 (7) Resume backup (0ca20228b6ec, 7): finish run
+1933.752 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1933.754 (7) No email will/can be sent - the user has not configured an email address.
+1933.754 (7) The backup has not finished; a resumption is scheduled
+2249.835 (8) Opened log file at time: Mon, 11 Apr 2016 14:03:36 +0000 on http://dev.driving
+2249.836 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+2249.836 (8) Free space on disk containing Updraft's temporary directory: 338479.3 MB
+2249.838 (8) Backup run: resumption=8, nonce=0ca20228b6ec, begun at=1460381167 (2249s ago), job type=backup
+2249.839 (8) Scheduling a resumption (9) after 300 seconds (1460383716) in case this run gets aborted
+2249.841 (8) Checking if we have a zip executable available
+2249.842 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2249.842 (8) Creation of backups of directories: already finished
+2249.843 (8) Saving backup status to database (elements: 8)
+2249.845 (8) Database dump (WordPress DB): Creation was completed already
+2249.848 (8) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2249.848 (8) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2249.849 (8) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2249.850 (8) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+2249.851 (8) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+2249.853 (8) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+2249.856 (8) Saving backup history. Total backup size: Unknown
+2249.858 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+2249.860 (8) Cloud backup selection (1/1): googledrive (last)
+2249.861 (8) Beginning dispatch of backup to remote (googledrive)
+2249.862 (8) Google Drive: this account is not authorised
+2249.864 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2249.865 (8) Number of backup sets in history: 1; groups (db): 1
+2249.866 (8) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+2249.867 (8) This backup set is the backup set just made, so will not be deleted.
+2249.867 (8) Number of backup sets in history: 1; groups (files): 1
+2249.868 (8) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+2249.869 (8) This backup set is the backup set just made, so will not be deleted.
+2249.870 (8) This backup set is the backup set just made, so will not be deleted.
+2249.870 (8) This backup set is the backup set just made, so will not be deleted.
+2249.870 (8) This backup set is the backup set just made, so will not be deleted.
+2249.870 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2249.871 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2249.873 (8) Resume backup (0ca20228b6ec, 8): finish run
+2249.874 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2249.876 (8) No email will/can be sent - the user has not configured an email address.
+2249.877 (8) The backup has not finished; a resumption is scheduled
+2550.039 (9) Opened log file at time: Mon, 11 Apr 2016 14:08:37 +0000 on http://dev.driving
+2550.040 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.31 (Darwin Laszlos-iMac.local 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.6.25 WPLANG:  Server: Apache/2.4.17 (Unix) PHP/5.5.31 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 14.3M) multisite: N openssl: N mcrypt: N LANG:  ZipArchive::addFile: N
+2550.041 (9) Free space on disk containing Updraft's temporary directory: 338479.2 MB
+2550.043 (9) Backup run: resumption=9, nonce=0ca20228b6ec, begun at=1460381167 (2550s ago), job type=backup
+2550.044 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2550.045 (9) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+2550.046 (9) Creation of backups of directories: already finished
+2550.046 (9) Saving backup status to database (elements: 8)
+2550.048 (9) Database dump (WordPress DB): Creation was completed already
+2550.050 (9) backup_2016-04-11-1426_Driving_c9a74f4d925f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2550.051 (9) backup_2016-04-11-1426_Driving_c9a74f4d925f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2550.052 (9) backup_2016-04-11-1426_Driving_c9a74f4d925f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2550.053 (9) backup_2016-04-11-1426_Driving_c9a74f4d925f-others.zip: others: This file has not yet been successfully uploaded: will queue
+2550.054 (9) backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Volumes/Data/Development/Driving/wp-content/updraft/backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz)
+2550.056 (9) Recording as successfully uploaded: backup_2016-04-11-1426_Driving_0ca20228b6ec-db.gz (e57b9e07cae4dfec4bfcd71a931011c3)
+2550.059 (9) Saving backup history. Total backup size: Unknown
+2550.061 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+2550.063 (9) Cloud backup selection (1/1): googledrive (last)
+2550.064 (9) Beginning dispatch of backup to remote (googledrive)
+2550.065 (9) Google Drive: this account is not authorised
+2550.067 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2550.068 (9) Number of backup sets in history: 1; groups (db): 1
+2550.069 (9) Examining (for databases) backup set with group_id=0, nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+2550.070 (9) This backup set is the backup set just made, so will not be deleted.
+2550.070 (9) Number of backup sets in history: 1; groups (files): 1
+2550.071 (9) Examining (for files) backup set with nonce=0ca20228b6ec, datestamp=1460381167 (Apr 11 2016 13:26:07)
+2550.072 (9) This backup set is the backup set just made, so will not be deleted.
+2550.072 (9) This backup set is the backup set just made, so will not be deleted.
+2550.073 (9) This backup set is the backup set just made, so will not be deleted.
+2550.073 (9) This backup set is the backup set just made, so will not be deleted.
+2550.073 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2550.074 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2550.076 (9) Resume backup (0ca20228b6ec, 9): finish run
+2550.077 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2550.079 (9) No email will/can be sent - the user has not configured an email address.
+2550.080 (9) The backup attempt has finished, apparently unsuccessfully
