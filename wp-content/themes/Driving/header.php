@@ -31,12 +31,25 @@
 
 <body <?php body_class(); ?>>
 
-    <header>
-
-    </header>
-
-    <nav id="main_nav">
+    <nav id="main_nav" role="navigation">
         <?php wp_nav_menu(array('container_class' => 'menu_header', 'theme_location' => 'custom-menu-place-name')); ?>
     </nav><!-- #main_nav -->
+
+    <header class="parallax-container">
+
+        <div class="section">   
+            <div class="container center">
+                <h1>Heading 1</h1>
+                <h4>Heading 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn-large waves-effect waves-light red darken-4">Sample button</a>
+            </div>
+        </div>
+
+        <div class="parallax">
+            <img src="<?php echo get_template_directory_uri()?>/images/img1080.png" alt="Paralax1" />
+        </div>
+
+    </header>    
 
     <section id="content">

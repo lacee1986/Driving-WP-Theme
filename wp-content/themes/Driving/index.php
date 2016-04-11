@@ -15,23 +15,37 @@
 get_header();
 ?>
 
-<!-- Set the default Wordpress Pagination (Settings - Reading) to a smaller number than this -->
-<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
-<?php $the_query = new WP_Query(array('post_type' => 'post', 'posts_per_page' => '1', 'order' => 'ASC', 'orderby' => 'menu_order', 'paged' => $paged)); ?>
+<div class="section blue lighten-3">   
+    <div class="container">
+    	<div class="row">
+    		<div class="col s6">
+    			<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+    		</div>
+    		<div class="col s6">
+				<!-- Set the default Wordpress Pagination (Settings - Reading) to a smaller number than this -->
+				<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
+				<?php $the_query = new WP_Query(array('post_type' => 'post', 'posts_per_page' => '1', 'order' => 'ASC', 'orderby' => 'menu_order', 'paged' => $paged)); ?>
 
-<?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
+				<?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
-        <!-- Insert content here -->
-        <?php the_title(); ?>
-        <?php the_content(); ?>
+				        <!-- Insert content here -->
+				        <?php the_title(); ?>
+				        <?php the_content(); ?>
 
-    <?php endwhile; ?>
-    <?php wp_reset_postdata(); ?>
+				    <?php endwhile; ?>
+				    <?php wp_reset_postdata(); ?>
 
-<?php else : ?>
-    <!-- If no posts -->
-<?php endif; ?>
+				<?php else : ?>
+				    <!-- If no posts -->
+				<?php endif; ?>
 
-<?php wp_reset_query(); ?>
+				<?php wp_reset_query(); ?>
+    		</div>
+
+
+		
+
+	</div>
+</div>
 
 <?php get_footer(); ?>

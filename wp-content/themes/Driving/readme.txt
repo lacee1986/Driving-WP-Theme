@@ -1,8 +1,7 @@
 /*
 ==========================================================================
-=== Theme: Default Responsive Theme
-=== By: Ebow
-=== Website: http://ebow.ie
+=== Theme: Driving Theme
+=== By: Laszlo Kruchio
 === Version: 1.0
 ========================================================================== 
 */

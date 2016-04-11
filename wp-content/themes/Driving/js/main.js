@@ -45,20 +45,6 @@ $(document).ready(function () {
     });
     */
 
-    // Tabs
-    $('.tabs_head li').click(function () {
-        var clicked_tab = $(this);
-        var number = clicked_tab.index();
-        number = number + 1;
-        //console.log(number);
-
-        $('.tabs_head li').removeClass('active');
-        clicked_tab.addClass('active');
-
-        $('.tabs_content li').removeClass('show');
-        $('.tabs_content li:nth-child(' + number + ')').addClass('show');
-    });
-
 });
 });
 
@@ -66,7 +52,12 @@ $(document).ready(function () {
 (function ($) {
     $(window).load(function () {
 
+        // Contact Form 7 - Disable span tags
+        $('span.wpcf7-form-control-wrap input').unwrap();
+        $('span.wpcf7-form-control-wrap textarea').unwrap();
+
         // Responsive Video
+        /*
         $(function () {
             var iframes = document.getElementsByTagName('iframe');
             for (var i = 0; i < iframes.length; i++) {
@@ -90,6 +81,7 @@ $(document).ready(function () {
                 }
             }
         });
+        */
 
     });
 })(jQuery);
