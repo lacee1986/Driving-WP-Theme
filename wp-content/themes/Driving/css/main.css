@@ -1,0 +1,89 @@
+/*
+==========================================================================
+=== Theme: Default Responsive Theme
+=== By: Ebow
+=== Website: http://ebow.ie
+=== Version: 1.0
+=== For: 
+=== Last Edit: 
+========================================================================== 
+*/
+
+/*
+===========================================================================
+=== BASE STYLE ============================================================
+===========================================================================
+*/   
+
+html, body {height: 100%;}
+
+/* Custom Fonts */
+h1 {font-size:24px; color:#FAFAFA; line-height:24px; font-weight:bold; margin:10px 0;}
+h2 {font-size:18px; color:#000000; line-height:18px; font-weight:bold; margin:10px 0;}
+h3 {font-size:14px; color:#000000; line-height:16px; font-weight:bold; margin:10px 0;}
+h4 {font-size:12px; color:#000000; line-height:16px; font-weight:bold; margin:10px 0; padding:12px;}
+h5 {font-size:24px; color:#000000; line-height:24px; margin:15px 0 19px;}
+p {color:red; line-height:16px; margin:10px 0; font-size:12px;}
+
+/* Slow hover effect */
+a, input[type='submit'], button {text-decoration:none; color:#666666; text-decoration:none; 
+                                 -o-transition: color .6s ease-out, background-color .3s ease-in, opacity .1s ease-out;  
+                                 -ms-transition:color .6s ease-out, background-color .3s ease-in, opacity .1s ease-out;  
+                                 -moz-transition:color .6s ease-out, background-color .3s ease-in, opacity .1s ease-out;
+                                 -webkit-transition:color .6s ease-out, background-color .3s ease-in, opacity .1s ease-out; 
+                                 transition:color .6s ease-out, background-color .3s ease-in, opacity .1s ease-out;
+}
+a:hover {color:red;}  
+
+/* Layout */
+.outer {width:100%; float:left; clear:both;}
+.inner {width: 960px; padding: 0 10px; margin: 0 auto; clear:both;}
+
+/*
+===========================================================================
+=== HEADER ================================================================
+===========================================================================
+*/
+
+header {}
+
+/*
+===========================================================================
+=== WRAPPER / CONTENT =====================================================
+===========================================================================
+*/
+
+#wrapper {}
+#container {}
+
+/*
+===========================================================================
+=== HOMEPAGE ONLY CONTENT =================================================
+===========================================================================
+*/
+
+
+
+/*
+===========================================================================
+=== SIDEBARS ==============================================================
+===========================================================================
+*/
+
+
+
+/*
+===========================================================================
+=== FOOTER ================================================================
+===========================================================================
+*/
+
+footer {}
+
+/*
+===========================================================================
+=== MISC ==================================================================
+===========================================================================
+*/
+
+.mobile_only {display:none;}
